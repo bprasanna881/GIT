@@ -1,0 +1,45 @@
+1. Create folder in your pc and login into git bash into folder
+And install below commands
+1. git init
+2. git config –global username bprasanna881
+3. git config –global useremail bprasanna881@gmail.com
+Stages of git 
+						rwt
+
+
+   Working directory            staging                           local repository
+Working directory
+$ git status
+$ mkdir src
+$ git status
+$ cd src
+$ touch main.py
+Staging directory
+$ git add .
+$ git status
+Local Repo
+$ git commit –m “prod-feature”
+$ git log   -changes identity 
+Another file add $ touch test
+$ git add .
+$ git commit –m “prod-feature”
+RENAME&DELETE
+Rename command $ mv main.py app.py      [main.py app.py names]
+Delete file
+$ rm –rf app.py
+MULTI BRANCHES
+$ git init
+$ git status 
+$ mkdir svc
+$ touch main.py
+$ git add .
+$ git commit –m “first commit –main.py”
+Create multi branches
+$ git branch core      [core means branch name ]
+$ git branch  - view branches
+$ git branch   ola
+$ git branch  uber
+Swich branches command 
+$ git checkout core     [git checkout branch name]
+$ touch src/core.py
+We can see main.py file in remaining branches like uber and ola  because we create main.py in master branch
